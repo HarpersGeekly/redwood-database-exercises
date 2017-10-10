@@ -11,7 +11,7 @@ artist VARCHAR(200) NOT NULL,
 -- name — string for storing a record name
 name VARCHAR(300) NOT NULL,
 -- release_date — integer representing year record was released
-release_date DATE NOT NULL,
+release_date INT(4) NOT NULL,
 -- sales — floating point value for number of records sold (in millions)
 sales DECIMAL(10, 2) NOT NULL,
 -- genre — string for storing the record's genre(s)
