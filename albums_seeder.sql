@@ -4,64 +4,64 @@ INSERT INTO albums (artist, name, release_date, sales, genre)
 
 VALUES
 
-('Michael Jackson',	'Thriller',	'1982',	47.3, 'Pop, Rock, R&B'),
+('Michael Jackson',	'Thriller',	1982,	47.3, 'Pop, Rock, R&B'),
 
-('AC/DC',	'Back in Black',	'1980',	26.1, 'Hard rock'),
+('AC/DC',	'Back in Black',	1980,	26.1, 'Hard rock'),
 
-('Pink Floyd', 'The Dark Side of the Moon', '1973', 24.2, 'Progressive rock'),
+('Pink Floyd', 'The Dark Side of the Moon', 1973, 24.2, 'Progressive rock'),
 
-('Whitney Houston / Various artists',	'The Bodyguard',	'1992', 27.4,	'R&B, Soul, Pop, Soundtrack'),
+('Whitney Houston / Various artists',	'The Bodyguard',	1992, 27.4,	'R&B, Soul, Pop, Soundtrack'),
 
-('Meat Loaf', 'Bat Out of Hell', '1977', 21.5, 'Hard rock, Progressive rock'),
+('Meat Loaf', 'Bat Out of Hell', 1977, 21.5, 'Hard rock, Progressive rock'),
 
-('Eagles',	'Their Greatest Hits (1971–1975)',	'1976', 32.2,	'Rock, Soft rock, Folk rock'),
+('Eagles',	'Their Greatest Hits (1971–1975)',	1976, 32.2,	'Rock, Soft rock, Folk rock'),
 
-('Fleetwood Mac', 'Rumours',	'1977',	27.9, 'Soft rock'),
+('Fleetwood Mac', 'Rumours',	1977,	27.9, 'Soft rock'),
 
-('Bee Gees / Various artists',	'Saturday Night Fever',	'1977', 20.6, 'Disco'),
+('Bee Gees / Various artists',	'Saturday Night Fever',	1977, 20.6, 'Disco'),
 
-('Shania Twain',	'Come On Over',	'1997', 29.6, 'Country, Pop'),
+('Shania Twain',	'Come On Over',	1997, 29.6, 'Country, Pop'),
 
-('Led Zeppelin',	'Led Zeppelin IV',	'1971', 29.0,	'Hard rock, Heavy metal, Folk'),
+('Led Zeppelin',	'Led Zeppelin IV',	1971, 29.0,	'Hard rock, Heavy metal, Folk'),
 
 ('Michael Jackson',	'Bad',	'1987 ', 23.6,	'Pop, Funk, Rock'),
 
-('Alanis Morissette',	'Jagged Little Pill',	'1995', 24.4, 'Alternative rock'),
+('Alanis Morissette',	'Jagged Little Pill',	1995, 24.4, 'Alternative rock'),
 
-('Celine Dion',	'Falling into You',	'1996', 20.2,	'Pop, Soft rock'),
+('Celine Dion',	'Falling into You',	1996, 20.2,	'Pop, Soft rock'),
 
-('The Beatles',	'Sgt. Pepper''s Lonely Hearts Club Band', '1967', 13.1, 'Rock'),
+('The Beatles',	'Sgt. Pepper''s Lonely Hearts Club Band', 1967, 13.1, 'Rock'),
 
-('Michael Jackson',	'Dangerous',	'1991', 19.4,	'Rock, Funk, Pop'),
+('Michael Jackson',	'Dangerous',	1991, 19.4,	'Rock, Funk, Pop'),
 
-('Eagles',	'Hotel California',	'1976', 21.5, 'Rock, Soft rock, Folk rock'),
+('Eagles',	'Hotel California',	1976, 21.5, 'Rock, Soft rock, Folk rock'),
 
-('Various artists',	'Dirty Dancing',	'1987', 17.9, 'Pop, Rock, R&B'),
+('Various artists',	'Dirty Dancing',	1987, 17.9, 'Pop, Rock, R&B'),
 
-('Adele',	'21',	'2011', 25.3, 'Pop, Soul'),
+('Adele',	'21',	2011, 25.3, 'Pop, Soul'),
 
-('Celine Dion',	'Let''s Talk About Love',	'1997', 19.3,	'Pop, Soft rock'),
+('Celine Dion',	'Let''s Talk About Love',	1997, 19.3,	'Pop, Soft rock'),
 
-('The Beatles',	'1', '2000', 22.6, 'Rock'),
+('The Beatles',	'1', 2000, 22.6, 'Rock'),
 
-('Madonna',	'The Immaculate Collection',	'1990', 19.4,	'Pop, Dance'),
+('Madonna',	'The Immaculate Collection',	1990, 19.4,	'Pop, Dance'),
 
-('The Beatles',	'Abbey Road',	'1969', 14.4,	'Rock'),
+('The Beatles',	'Abbey Road',	1969, 14.4,	'Rock'),
 
-('Bruce Springsteen',	'Born in the U.S.A.',	'1984', 19.6,	'Rock'),
+('Bruce Springsteen',	'Born in the U.S.A.',	1984, 19.6,	'Rock'),
 
-('Dire Straits',	'Brothers in Arms',	'1985', 17.7,	'Rock, Pop'),
+('Dire Straits',	'Brothers in Arms',	1985, 17.7,	'Rock, Pop'),
 
-('James Horner',	'Titanic: Music from the Motion Picture',	'1997', 18.1, 'Soundtrack'),
+('James Horner',	'Titanic: Music from the Motion Picture', 1997, 18.1, 'Soundtrack'),
 
-('Metallica',	'Metallica',	'1991', 21.2,	'Thrash metal, Heavy metal'),
+('Metallica',	'Metallica',	1991, 21.2,	'Thrash metal, Heavy metal'),
 
-('Nirvana',	'Nevermind',	'1991', 16.7,	'Grunge, Alternative rock'),
+('Nirvana',	'Nevermind',	1991, 16.7,	'Grunge, Alternative rock'),
 
-('Pink Floyd',	'The Wall',	'1979', 17.6,	'Progressive rock'),
+('Pink Floyd',	'The Wall',	1979, 17.6,	'Progressive rock'),
 
-('Santana',	'Supernatural',	'1999', 20.5,	'Rock'),
+('Santana',	'Supernatural',	1999, 20.5,	'Rock'),
 
-('Guns N'' Roses',	'Appetite for Destruction',	'1987', 21.6,	'Hard rock');
+('Guns N'' Roses',	'Appetite for Destruction',	1987, 21.6,	'Hard rock');
 
 SELECT * FROM albums;
