@@ -62,7 +62,7 @@ GROUP BY t.title;
 -- Find the current salary of all current managers.
 
 SELECT d.dept_name AS 'Department Name', concat(e.first_name, ' ', e.last_name)
-AS 'Manager Name', s.salary AS 'Salary'
+AS 'Name', s.salary AS 'Salary'
 FROM employees e
   JOIN dept_manager dm ON dm.emp_no = e.emp_no
   JOIN salaries s ON s.emp_no = e.emp_no
@@ -94,3 +94,15 @@ ORDER BY d.dept_name ASC;
 -- --      Huan Lortz   | Customer Service | Yuchang Weedman
 -- --
 -- --      .....
+
+SELECT concat(e.first_name, ' ', e.last_name) AS 'Employee Name',
+d.dept_name AS 'Department Name',
+concat(mgmt.first_name, ' ', mgmt.last_name) AS 'Manager Name'
+FROM employees e
+JOIN dept_emp de ON e.emp_no = de.emp_no
+  JOIN departments d ON de.dept_no = d.dept_no
+  JOIN dept_manager manager ON d.dept_no = manager.dept_no
+  JOIN employees mgmt ON manager.emp_no = mgmt.emp_no
+  WHERE de.to_date >= curdate()
+      and manager.to_date >= curdate()
+  ORDER BY d.dept_name;
